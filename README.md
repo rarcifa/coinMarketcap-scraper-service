@@ -14,8 +14,8 @@ interface ICoin {
 
 ### Endpoints
 
-**Trending Coins:** http://localhost:3000/api/v1/coins-service/trending-coins
-**Most Visited Coins:** http://localhost:3000/api/v1/coins-service/most-visited-coins
+- **Trending Coins:** http://localhost:3000/api/v1/coins-service/trending-coins
+- **Most Visited Coins:** http://localhost:3000/api/v1/coins-service/most-visited-coins
 
 ### Local setup
 
