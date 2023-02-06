@@ -1,7 +1,7 @@
 {
-  "name": "web-scrapper-service",
+  "name": "cmc-scraper-service",
   "version": "1.0.0",
-  "description": "Web scrapper service app",
+  "description": "CoinMarketCap scraper service",
   "main": "server.ts",
   "scripts": {
     "prebuild": "tslint -c tslint.json -p tsconfig.json --fix",
