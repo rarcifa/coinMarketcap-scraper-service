@@ -32,7 +32,7 @@ interface ICoin {
 }
 ```
 
-- You need to get a private and public HS256 key and place them into the root folder. These files are used to secure the endpoints, alternatively, you can switch the authorisation off by removing the authenticateToken middleware in the routes.
+- You need to generate API keys and security keys for prod, dev, and testing and place them into the env folder. The helper file secuirty in the helper folder can help you to generate these tokens. Alternatively, you can switch off authorization by removing the middleware in the coin-routes.ts file.
 
 - In order to have the local environment variables set up, add the following `.env` file in the root of the project:
 
